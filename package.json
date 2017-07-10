@@ -20,8 +20,8 @@
     "rollup-plugin-babel": "^2.7.1"
   },
   "scripts": {
-    "build": "BABEL_ENV=production bili --format cjs --format es --js babel --flow --browser",
-    "watch": "BABEL_ENV=production bili -w --format cjs --format es --js babel --flow --browser",
+    "build": "BABEL_ENV=production bili --format cjs --format es --js babel --flow",
+    "watch": "BABEL_ENV=production bili -w --format cjs --format es --js babel --flow",
     "test": "jest"
   },
   "dependencies": {
