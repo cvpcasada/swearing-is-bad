@@ -1,0 +1,32 @@
+{
+  "name": "swearing-is-bad",
+  "version": "0.1.0",
+  "description": "Swearing is bad! This will sanitize your string input not to include bad words.",
+  "main": "dist/swearing-is-bad.common.js",
+  "module": "dist/swearing-is-es.common.js",
+  "repository": "https://github.com/cvpcasada/swearing-is-bad",
+  "author": "Cyrus Venn Casada",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-preval": "^1.3.0",
+    "babel-plugin-ramda": "^1.2.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "bili": "^0.17.2",
+    "jest": "^20.0.4",
+    "node-readme": "^0.1.9",
+    "rollup-plugin-babel": "^2.7.1"
+  },
+  "scripts": {
+    "build": "bili --format cjs --format es --js babel --flow --browser",
+    "watch": "bili -w --format cjs --format es --js babel --flow --browser",
+    "test": "jest"
+  },
+  "dependencies": {
+    "cuss": "^1.5.0",
+    "f-ck": "^1.0.2",
+    "ramda": "^0.24.1"
+  }
+}
