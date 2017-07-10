@@ -1,6 +1,6 @@
 {
   "name": "swearing-is-bad",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Swearing is bad! This will sanitize your string input not to include bad words.",
   "main": "dist/swearing-is-bad.common.js",
   "module": "dist/swearing-is-bad.es.js",
