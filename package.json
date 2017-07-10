@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Swearing is bad! This will sanitize your string input not to include bad words.",
   "main": "dist/swearing-is-bad.common.js",
-  "module": "dist/swearing-is-es.common.js",
+  "module": "dist/swearing-is-bad.es.js",
   "repository": "https://github.com/cvpcasada/swearing-is-bad",
   "author": "Cyrus Venn Casada",
   "license": "MIT",
