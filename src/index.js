@@ -43,6 +43,6 @@ const createCleaner = R.curryN(3, function() {
 
 const defaultCleaner = createCleaner([], grawlix);
 
-export { grawlix, inner, vowel, createCleaner };
-
 export default (str: string) => defaultCleaner(str);
+
+export { grawlix, inner, vowel, createCleaner };
