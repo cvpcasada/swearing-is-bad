@@ -1,7 +1,9 @@
 import clean from '../index';
 
-describe(`test database`, () => {  
-  it(`test filter function`, () => {
-    expect(clean(`hello fucking world`)).toEqual(`hello @#$%ing world`);
+describe(`Test filter function`, () => {
+  it(`default cleaning filters the word fuck`, () => {
+    expect(clean(`hello fucking world`)).not.toEqual(
+      expect.stringContaining(`fuck`)
+    );
   });
 });

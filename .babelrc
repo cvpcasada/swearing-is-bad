@@ -1,11 +1,11 @@
 {
     "env": {
       "test": {
-        "presets": ["env"],
+        "presets": ["env", "flow"],
         "plugins": ["preval"]
       },
       "production": {
-        "presets": [["env", { "modules": false }]],
+        "presets": [["env", { "modules": false }], "flow"],
         "plugins": [
             "external-helpers",
             "transform-object-rest-spread",

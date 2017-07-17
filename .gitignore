@@ -168,3 +168,4 @@ fabric.properties
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/node,code,macos,webstorm
+\.idea/

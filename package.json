@@ -9,11 +9,12 @@
   "license": "MIT",
   "devDependencies": {
     "babel-plugin-external-helpers": "^6.22.0",
-    "babel-plugin-preval": "^1.3.0",
+    "babel-plugin-preval": "^1.3.3",
     "babel-plugin-ramda": "^1.2.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
     "bili": "^0.17.2",
     "jest": "^20.0.4",
     "node-readme": "^0.1.9",
@@ -25,8 +26,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "cuss": "^1.5.0",
     "f-ck": "^1.0.2",
+    "grawlix": "^1.0.6",
+    "grawlix-racism": "^1.0.2",
     "ramda": "^0.24.1"
   }
 }
