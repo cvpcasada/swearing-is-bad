@@ -16,6 +16,8 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-flow": "^6.23.0",
     "bili": "^0.17.2",
+    "grawlix": "^1.0.6",
+    "grawlix-racism": "^1.0.2",
     "jest": "^20.0.4",
     "node-readme": "^0.1.9",
     "rollup-plugin-babel": "^2.7.1"
@@ -27,8 +29,6 @@
   },
   "dependencies": {
     "f-ck": "^1.0.2",
-    "grawlix": "^1.0.6",
-    "grawlix-racism": "^1.0.2",
     "ramda": "^0.24.1"
   }
 }
